@@ -52,6 +52,7 @@ project "GLFW"
 
 	filter "system:windows"
 		systemversion "latest"
+		buildoptions "/MDd"
 
 		files
 		{
